@@ -6,9 +6,15 @@ class Librey(Book,User):
     
     def add_book(self,Book):
         self.books.append(Book)
+        print(f"New book have been aded. book info: {Book}")
         return self.books
     
-    
+    def add_user(self, User):
+        self.users.append(User)
+        print(f"New user registered. user info: {User}")
+        return self.users
+
+
 
 
 
