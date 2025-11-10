@@ -1,1 +1,2 @@
-"khkjlkjlkjlk"
+class Book:
+    
