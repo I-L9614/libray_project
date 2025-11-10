@@ -1,10 +1,10 @@
 class Book:
-    count = 10000
-    def __init__(self,title,author):
+    
+    def __init__(self,title,author,ISBN):
         self.title = title
         self.author = author
-        self.ISBN = Book.count
-        Book.count += 2
+        self.ISBN = ISBN  
+        
         self.is_available = True
 
     def apdet_availabileti(self):
