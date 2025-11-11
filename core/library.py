@@ -1,8 +1,8 @@
-# from book import Book
-# from user import User
+from core.book import Book
+from core.user import User
 
-class Librey:
-    def __init__(self, list_of_books, list_of_users):
+class Library:
+    def __init__(self, list_of_books=[], list_of_users=[]):
         self.books = list_of_books
         self.users = list_of_users
        

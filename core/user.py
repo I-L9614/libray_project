@@ -1,5 +1,5 @@
 
-from book import Book
+from core.book import Book
 
 class User:
     count = 1
